@@ -20,7 +20,7 @@ To implement the Sobel Edge Detection we should:
 Sobel Operators are used to see how much is the difference between pixels. So, if it's great enough it can be considered as an edge.
 Sobel Operators:
 
-```math
+$$
 G_x=
 \begin{bmatrix}
 1 & 0 & -1\\
@@ -33,11 +33,11 @@ G_y=
 0 & 0 & 0\\
 -1 & -2 & -1\\
 \end{bmatrix}
-```
+$$
 
 To combine the convolutions:
 
-$G=\sqrt{G_x^2+G_y^2}$
+$$G=\sqrt{G_x^2+G_y^2}$$
 
 ## Results
 
